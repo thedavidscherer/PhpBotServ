@@ -1,0 +1,24 @@
+Syntax: {B}BADWORDS {U}CHANNEL{U} ADD {U}WORD{U}{B}{BR}
+{T}{B}BADWORDS {U}CHANNEL{U} DEL {U}WORD{U}{B}{BR}
+{T}{B}BADWORDS {U}CHANNEL{U} LIST {U}WORD{U}{B}{BR}
+ {BR}
+Maintains the list of badwords for a channel. By default,{BR}
+all users who are +o on a channel or higher can modify the{BR}
+list of words for a particular channel. Beware, the design{BR}
+of this bot is to make no user exempt from the kick, and{BR}
+eventual ban. Currently, {BOT} is unable to kick channel{BR}
+administrators (+a). After 5 kicks, the user is banned{BR}
+from the channel indefinitely. (You must remove the ban if{BR}
+you want that user to have access again.) This is currently{BR}
+not a configurable option but will be in the near future.{BR}
+ {BR}
+The {B}BADWORDS ADD{B} command adds the given word to the {BR}
+badword list. {BOT} will then do its best from then on{BR}
+to locate that word in the text users send to the channel.{BR}
+ {BR}
+The {B}BADWORDS DEL{B} command removes the given word{BR}
+from the badwords list. {BOT} will no longer check{BR}
+for that word in text sent to the channel.{BR}
+ {BR}
+The {B}BADWORDS LIST{B} command generates a list of all{BR}
+words in the badword list.{BR} 
