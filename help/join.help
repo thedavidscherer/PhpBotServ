@@ -1,0 +1,7 @@
+Syntax: {B}JOIN {U}CHANNEL{U}{B}{BR}
+ {BR}
+ Allows a channel operator to ask {BOT} to join and{BR}
+ start performing general channel operations. In {BR}
+ order for {BOT} to function properly, it is{BR}
+ that he have a minimum access of HalfOp or level 5 (+h){BR}
+ on a channel. Admin or level 10 (+ao) is preferred.{BR}
