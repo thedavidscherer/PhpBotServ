@@ -1,7 +1,11 @@
 <?php
 /*
 PHP BotServ
+<<<<<<< HEAD
 VERSION: 0.1.1 Public Beta
+=======
+VERSION: 0.1.0 Public Beta
+>>>>>>> 0202d48031c464aaeebe1455ac4a099ad8e31550
 */
 
 /*
@@ -48,7 +52,11 @@ fwrite($fp, "PRIVMSG NickServ :IDENTIFY ".$pass."\r\n");
 fwrite($fp, "OPER {$oper} {$pass}\r\n");
 
 //version
+<<<<<<< HEAD
 fwrite ($fp, "PRIVMSG #opers :PHP BotServ VERSION: 0.1.1 Public Beta\r\n");
+=======
+fwrite ($fp, "PRIVMSG #opers :PHP BotServ VERSION: 0.1.0 Public Beta\r\n");
+>>>>>>> 0202d48031c464aaeebe1455ac4a099ad8e31550
     
 //rejoin added channels
 rejoin ($fp);

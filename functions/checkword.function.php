@@ -26,12 +26,16 @@ function checkword ($Uword, $channel) {
       continue;
     }
     else {
+<<<<<<< HEAD
       if ( (strlen($Bword) == strlen($Uword)) || ((strlen($Bword) + 3) == strlen($Uword)) ) {
       	return true;
       }
       else {
         continue;
       }
+=======
+    	return true;
+>>>>>>> 0202d48031c464aaeebe1455ac4a099ad8e31550
     }
   
   }
