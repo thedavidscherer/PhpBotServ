@@ -1,7 +1,15 @@
 <?php
 /*
 PHP BotServ
+<<<<<<< HEAD
 VERSION: 0.1.1 Public Beta
+=======
+<<<<<<< HEAD
+VERSION: 0.1.1 Public Beta
+=======
+VERSION: 0.1.0 Public Beta
+>>>>>>> 0202d48031c464aaeebe1455ac4a099ad8e31550
+>>>>>>> b0acabc81fc89ba598bd8d82e77e6542bb79b20f
 */
 
 /*
@@ -48,7 +56,15 @@ fwrite($fp, "PRIVMSG NickServ :IDENTIFY ".$pass."\r\n");
 fwrite($fp, "OPER {$oper} {$pass}\r\n");
 
 //version
+<<<<<<< HEAD
 fwrite ($fp, "PRIVMSG #opers :PHP BotServ VERSION: 0.1.1 Public Beta\r\n");
+=======
+<<<<<<< HEAD
+fwrite ($fp, "PRIVMSG #opers :PHP BotServ VERSION: 0.1.1 Public Beta\r\n");
+=======
+fwrite ($fp, "PRIVMSG #opers :PHP BotServ VERSION: 0.1.0 Public Beta\r\n");
+>>>>>>> 0202d48031c464aaeebe1455ac4a099ad8e31550
+>>>>>>> b0acabc81fc89ba598bd8d82e77e6542bb79b20f
     
 //rejoin added channels
 rejoin ($fp);
@@ -67,8 +83,11 @@ while (!feof($fp)) {
   
   $line = parse_line ($line);
   
+<<<<<<< HEAD
   fwrite ($fp, "PRIVMSG #RomLog :{$line}\r\n");
   
+=======
+>>>>>>> b0acabc81fc89ba598bd8d82e77e6542bb79b20f
   switch ($line['type']) {
   
     case 'privmsg': {
