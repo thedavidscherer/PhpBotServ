@@ -1,0 +1,11 @@
+Here are the requirements for a module:
+* It just contain the variable $classname, which must be set to the name of a class defined within the module
+* The class named by $classname must implement these methods:
+	* getName() - returns the name of the module for logging purposes
+	* handlesDirectCommands() - must return true if the module can be called by a command
+	* if handlesDirectCommands() returns true:
+		* getCommand() - returns the command that triggers this module
+		* processCommand($fp, $line, $cmd) - processes the command contained in $cmd (which will be the array outputted by parse_cmd()), sending responses over $fp
+	* handlesGlobalMessages() - must return true if the module is meant to process all chat messages
+	* if handlesGlobalMessages() returns true:
+		* processLine($fp, $line) - processes the line contained in $line (which will be the associative array outputted by parse_line()), sending responses over $fp

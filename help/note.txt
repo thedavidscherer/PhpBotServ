@@ -1,0 +1,1 @@
+Any file in this folder that ends with ".help" can be retrieved by the help command
