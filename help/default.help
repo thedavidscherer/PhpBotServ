@@ -1,0 +1,11 @@
+{B}{BOT}{B} allows you to assign a bot to your channel which{BR}
+will attempt to automate functions normally performed manually{BR}
+Currently {BOT} only has channel censorship functions available{BR}
+meaning that it can only detect badwords and kick and ban{BR}
+based on that word. Available commands are listed below; type{BR}
+{B}/msg {BOT} {U}COMMAND{U}{B} to use them. For more help on a a{BR}
+specific command type {B}/msg {BOT} HELP {U}COMMAND{U}{B}{BR}
+ {BR}
+{T}BADWORDS{T}Manage a channel's badword list{BR}
+{T}JOIN{T}Ask {BOT} to join a channel{BR}
+{T}PART{T} Ask {BOT} to leave a channel{BR}

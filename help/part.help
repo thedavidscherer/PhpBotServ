@@ -1,0 +1,5 @@
+Syntax: {B}PART {U}CHANNEL{U}{B}{BR}
+ {BR}
+ Allows a channel operator to ask {BOT} to stop monitoring and{BR}
+ and permanently leave the channel until asked to {B}JOIN{B}{BR}
+ again. All data in the database for that channel will be deleted.{BR}
